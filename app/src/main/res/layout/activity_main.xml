@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ma.butterknife.MainActivity">
+
+    <TextView
+        android:id="@+id/tvEventMsg"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tvEventMsg2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tvEventMsg3"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:text="Hello World!" />
+
+
+    <Button
+        android:id="@+id/btnEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送 001"/>
+
+    <Button
+        android:id="@+id/btnEvent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送 002"/>
+
+    <Button
+        android:id="@+id/btnEvent3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送 003"/>
+
+
+
+</LinearLayout>
